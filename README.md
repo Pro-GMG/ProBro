@@ -48,7 +48,7 @@
 
 ### Temel Komutlar
 
-```text
+```bash
 ProBro> selam
 🤖 Merhaba! 👋 Ne yapmak istersin?
 
@@ -67,3 +67,49 @@ def fibonacci(n):
     if n <= 1:
         return n
     return fibonacci(n-1) + fibonacci(n-2)
+Örnek Kullanımlar
+Ne Yapmak İstersin?	Yaz
+Bugün oluşan dosyaları bul	bugün oluşan dosyaları bul
+Büyük dosyaları göster	büyük dosyaları bul
+Sistem durumu	sistem durumu
+Disk kullanımı	disk kullanımı
+Python kodu yaz	bana bir Python kodu yaz
+HTML sayfası yap	bana bir HTML sayfası yap
+Komut açıklama	ls -la ne işe yarar?
+🔧 Kurulum
+1. ProBro'yu İndir
+ProBro v1.0.0 İndir
+
+2. Kurulumu Başlat
+ProBro Setup 1.0.0.exe dosyasını çalıştır
+
+Kurulum sihirbazını takip et
+
+Masaüstü kısayolu oluştur (önerilir)
+
+3. İlk Çalıştırma
+ProBro'yu masaüstünden başlat
+
+AI modeli otomatik indirilir (~2 GB)
+
+İndirme tamamlandığında kullanmaya başla
+
+🏗️ Geliştirici Bilgileri
+Teknolojiler
+yaml
+Frontend: HTML5, CSS3, JavaScript
+Backend: Node.js, Electron
+AI Model: Llama 3.2 3B (Özel eğitilmiş)
+AI Motor: Ollama
+Build Tool: electron-builder
+Proje Yapısı
+text
+ProBro/
+├── main.js              # Electron ana dosyası
+├── renderer.js          # UI mantığı
+├── index.html           # Ana arayüz
+├── style.css            # Stil dosyası
+├── package.json         # Bağımlılıklar
+├── Modelfile            # AI model yapılandırması
+└── dist/                # Derlenmiş uygulama
+🤝 Katkıda Bulun
